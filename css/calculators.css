@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.content{
+    text-align: center;
+    width: 386px;
+    border: 3px solid #2D79EA;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.4));
+    margin: 16px auto;
+    vertical-align: middle;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.displayer{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 348px;
+    height: 100px;
+    border: 1px solid #2D79EA;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.3));
+    border-radius: 15px;
+    font: normal 500 38px/100px "Microsoft YaHei";
+    box-sizing: border-box;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+    
+}
+hr{margin: 20px auto;}
+.displayer:hover{
+    background-color: #2D79EA;
+    color: white;
+    cursor: text;
+
+}
+.keys{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 352px;
+    margin: auto;    
+}
+.key{
+    display: inline-block;
+    border: 1px solid #2D79EA;
+    border-radius: 10px;
+    text-align: center;
+    width: 85px;
+    margin: 1px;
+    box-sizing: border-box;
+    
+}
+.btn{
+    margin: auto;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1));
+    font:500 48px/98px "Microsoft YaHei";
+    border-radius: 10px;
+    width: 85px;
+    outline: none;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: #2D79EA;
+    color: white;
+    cursor: pointer;
+}
